@@ -6,13 +6,13 @@ Folder structure (temporary)
     └── 2.csv
     ...
 /Output_final
-    └── Output_marloes
+    └── Output
         └── burst_timings_1.xlsx
         └── burst_timings_2.xlsx
         ...
-    └── Output_monica
+    └── Output
         ...
-    └── Output_nina
+    └── Output
         ...
 /temp_calculations
     └── burst_timings_1_expert_burst_data.txt

@@ -11,9 +11,9 @@ def main():
     start_time_total = timer()
     
     # Initialize parameter values
-    min_slope_values = np.linspace(0, 0.0007, num=5)
-    division_factor_values = np.linspace(1, 20, num=5)
-    smoothness_values = np.linspace(0.001, 3, num=5)
+    min_slope_values = np.linspace(0, 0.0007, num=50)
+    division_factor_values = np.linspace(1, 20, num=50)
+    smoothness_values = np.linspace(0.001, 3, num=50)
 
     bursts_by_params = {(min_slope, division_factor, smoothness): [] for min_slope in min_slope_values for division_factor in division_factor_values for smoothness in smoothness_values}
     
