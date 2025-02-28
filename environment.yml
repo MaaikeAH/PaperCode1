@@ -1,0 +1,8 @@
+name: detection_dep
+dependencies:
+- pandas
+- numpy
+- scipy
+- seaborn
+- tqdm
+- openpyxl
